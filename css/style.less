@@ -1,0 +1,47 @@
+html {
+    font-size: 14px;
+}
+body {
+    padding: 0;
+    background-color: #E5E5E5;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: @white;
+}
+p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: @gray;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/*Blocks*/
+@import "blocks/container.less";
+@import "blocks/header.less";
+@import "blocks/nav.less";
+@import "blocks/intro.less";
+@import "blocks/portfolio.less";
+@import "blocks/shape.less";
+@import "blocks/tools.less";
+@import "blocks/fon.less";
+@import "blocks/clients.less";
+@import "blocks/graphy.less";
+@import "blocks/footer.less";
+@import "blocks/modals.less";
+@import "blocks/modal-portfolio.less";
+
+/*Helpers*/
+@import "vars.less";

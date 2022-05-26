@@ -337,10 +337,9 @@ a {
   margin-bottom: 82px;
 }
 .clients__icon {
-  margin: 0 auto;
-}
-.clients__icon-photo {
-  margin-right: 109px;
+  display: flex;
+  justify-content: space-around;
+  max-height: 50px;
 }
 .client-last__photo {
   max-width: 128px;
@@ -495,8 +494,9 @@ a {
 .modal-work__photo {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 49%;
   z-index: 1;
+  height: 800px;
   transform: translate3D(-50%, -50%, 0);
 }
 .modal-work__content {
@@ -505,7 +505,7 @@ a {
   padding: 50px 99px 15px 26px;
 }
 .modal-work__header {
-  margin-bottom: 33px;
+  margin-bottom: 10px;
 }
 .modal-work__title {
   margin-bottom: 3px;
